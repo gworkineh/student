@@ -22,4 +22,6 @@ public class StudentController {
     public void registerNewStudent(@RequestBody Student student){
         studentAService.addNewStudent(student);
     }
+
+
 }

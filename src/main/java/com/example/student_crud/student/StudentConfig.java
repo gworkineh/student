@@ -28,8 +28,13 @@ public class StudentConfig {
                     "dawit@yahoo.com",
                     LocalDate.of(1978, Month.JANUARY,12)
             );
+            Student Dawit2 = new Student(
+                    "Dawit2",
+                    "dawit@yahoo.com",
+                    LocalDate.of(1900, Month.JANUARY,12)
+            );
             repository.saveAll(
-                    List.of(Mariam,Meaza,Dawit)
+                    List.of(Mariam,Meaza,Dawit,Dawit2)
             );
         };
     }
